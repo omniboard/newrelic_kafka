@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path("../lib/newrelic-kafka/version", __FILE__)
+require File.expand_path("../lib/newrelic_kafka/version", __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors     = ["Joel Stimson"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT"
 
   gem.files         = Dir["{lib}/**/*.rb", "LICENSE", "*.md"]
-  gem.name          = "newrelic-kafka"
+  gem.name          = "newrelic_kafka"
   gem.require_paths = ["lib"]
   gem.version       = NewrelicKafka::VERSION
 

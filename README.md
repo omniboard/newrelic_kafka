@@ -7,7 +7,7 @@ Unofficial [NewRelic](http://newrelic.com/) instrumentation for the
 
 Add this line to your application's Gemfile:
 
-    gem 'newrelic-kafka'
+    gem 'newrelic_kafka'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself with:
 
-    $ gem install newrelic-kafka
+    $ gem install newrelic_kafka
 
 ## Releases
 * 0.0.1 Support for synchronous `produce` in the [ruby-kafka](https://github.com/zendesk/ruby-kafka) gem
