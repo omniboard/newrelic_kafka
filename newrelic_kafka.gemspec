@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email       = ["joel@apptentive.com"]
   gem.description = %q{Unofficial New Relic instrumentation for ruby-kafka Producer}
   gem.summary     = %q{Unofficial New Relic instrumentation for ruby-kafka Producer}
-  gem.homepage    = "http://github.com/apptentive-engineering/newrelic-kafka"
+  gem.homepage    = "http://github.com/apptentive-engineering/newrelic_kafka"
   gem.license     = "MIT"
 
   gem.files         = Dir["{lib}/**/*.rb", "LICENSE", "*.md"]

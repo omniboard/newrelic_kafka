@@ -1,0 +1,6 @@
+*.gem
+.DS_Store
+.ruby-version
+.yardoc
+Gemfile.lock
+.idea/*
