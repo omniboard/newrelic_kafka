@@ -19,6 +19,7 @@ Or install it yourself with:
 
 ## Releases
 * 0.0.1 Support for synchronous `produce` in the [ruby-kafka](https://github.com/zendesk/ruby-kafka) gem
+* 0.0.4 Switch to instrumenting `deliver_messages` since it's the actual delivery method
 
 ## Contributing
 

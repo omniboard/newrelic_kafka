@@ -18,7 +18,7 @@ DependencyDetection.defer do
     require "new_relic/agent/datastores"
 
     [Kafka::Producer].each do |klass|
-      NewRelic::Agent::Datastores.trace klass, :produce, "Kafka"
+      NewRelic::Agent::Datastores.trace klass, :deliver_messages, "Kafka"
     end
   end
 end
